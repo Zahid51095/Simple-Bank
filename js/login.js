@@ -8,10 +8,10 @@ document.getElementById('btn-submit').addEventListener('click', function(){
     const password = passwordField.value;
     // verify email and password
     if(email === 'zahid@gmail.com' && password === '51095'){
-        console.log('Valid user');
+        window.location.href = 'bank.html';
 
     }
     else {
-        console.log('Invalid user');
+        alert('Forgot password? No worries. We are here to help you.');
     }
 })
